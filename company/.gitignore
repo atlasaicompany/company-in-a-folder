@@ -1,0 +1,4 @@
+# If you keep your company folder in git, these stay out of it.
+logs/
+STOP
+guard-config.json
