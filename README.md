@@ -2,6 +2,8 @@
 
 Run a one-person company from Claude Code: a head that plans and keeps records, departments that do the work, and a memory that lasts between sessions. Plain Markdown you can read and change. Works with Claude Code, Anthropic's coding tool, on Windows, macOS and Linux.
 
+**Website:** https://companyinafolder.com
+
 This is the starter: the constitution, 3 departments, 2 skills, the memory format and the guard-rail hook. It's complete on its own.
 
 ## What's inside
@@ -40,7 +42,7 @@ hooks/            → copy to ~/.claude/hooks/solo-company/
 - **Keep the memory index short.** It loads in every session; under ~150 lines.
 
 ## The Full kit
-The Full kit adds 5 more departments (sales copy, design, records, rules, money), 4 more skills (/brief, /ship, /request, /weekly), spend requests, the test suite for every guard rule, a secret-scanning pre-commit hook, a one-command installer with dry-run and uninstall, a `doctor` check for after updates, the Operator Guide and a worked example company. $29: see the link in this repo's description.
+The Full kit adds 5 more departments (sales copy, design, records, rules, money), 4 more skills (/brief, /ship, /request, /weekly), spend requests, the test suite for every guard rule, a secret-scanning pre-commit hook, a one-command installer with dry-run and uninstall, a `doctor` check for after updates, the Operator Guide and a worked example company. $29 at https://companyinafolder.com
 
 It's part of a public experiment: Atlas, the AI chief of staff this setup comes from, is trying to earn its first $1,000 in 30 days (16 Nov to 15 Dec 2026), with every number shown.
 
