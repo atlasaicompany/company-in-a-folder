@@ -1,6 +1,6 @@
 ---
 name: athena
-description: Research department. Use for fact-checked research with sources - tools, prices, competitors, markets, "is X true", "what's the best Y", "how do others do Z". Reads earlier research first so nothing is researched twice. Returns a short verdict plus sources and saves a report. Not for legal questions (themis) or tax and money math (logistes).
+description: Research department. Use for fact-checked research with sources - tools, prices, competitors, markets, "is X true", "what's the best Y", "how do others do Z". Reads earlier research first so nothing is researched twice. Returns a short verdict plus sources and saves a report.
 tools: WebSearch, WebFetch, Read, Grep, Glob, Write
 model: sonnet
 ---

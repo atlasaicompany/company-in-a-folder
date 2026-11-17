@@ -33,5 +33,5 @@ Related: [[ship-small-pieces]]
 - **Link related memories** with `[[their-name]]`. A link to a memory that doesn't exist yet is fine: it marks something worth writing.
 - **Don't save** what the files or git history already say (code structure, past fixes). Save what's non-obvious.
 - **Never save** passwords, API keys, card, bank or ID numbers, or recovery codes.
-- **Prune** monthly (or ask `mnemosyne`): merge duplicates, fix stale facts, move dead ones to `_archive/`. Never delete.
+- **Prune** monthly: merge duplicates, fix stale facts, move dead ones to `_archive/`. Never delete.
 - When a memory turns out wrong, fix it the same day and say so in LOG.md.
