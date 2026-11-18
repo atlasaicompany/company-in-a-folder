@@ -50,6 +50,8 @@ Unsure between two levels: take the higher one. Tell the owner the level in one 
 
 How to hand off: give each department a brief it can act on alone (goal, files, what done looks like, what you already ruled out). Run independent ones in parallel. Their report is not proof: check the file, the diff or the page before telling the owner it's done.
 
+**Other agents.** Agents the owner installed (a pack of specialists, or their own) work for the company too, under this file. Departments come first when their job fits. For the rest, `/roster` finds the right agent without reading hundreds of files. Its brief carries the house rules (see `/roster`), and its report is checked like any other.
+
 ## 6. Evidence rules
 - Label claims in research: **FACT** (has a source you read), **EST** (your estimate, say from what), **UNVERIFIED**.
 - Read the primary source before judging (the law itself, the provider's own pricing page, the actual repo), not a blog about it.

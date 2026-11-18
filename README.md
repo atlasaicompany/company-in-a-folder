@@ -4,7 +4,9 @@ Run a one-person company from Claude Code: a head that plans and keeps records, 
 
 **Website:** https://companyinafolder.com
 
-This is the starter: the constitution, 3 departments, 2 skills, the memory format and the guard-rail hook. It's complete on its own.
+This is the starter: the constitution, 3 departments, 3 skills, the memory format and the guard-rail hook. It's complete on its own.
+
+**Already installed [Agency Agents](https://github.com/msitarzewski/agency-agents) or your own agents?** Keep them: give them a company to work in. `/roster` counts every agent in `~/.claude/agents` and your project, says when they look like the Agency Agents pack, and finds the best few for a task without loading hundreds of files into the session. Agency Agents is a separate MIT-licensed project; nothing from it is in this repo.
 
 ## What's inside
 ```
@@ -19,6 +21,7 @@ agents/           → goes to ~/.claude/agents/
 skills/           → goes to ~/.claude/skills/
   wrap/           /wrap: record the session into NOW, LOG and memory, then commit
   decode/         /decode: a long messy message becomes a table, nothing dropped
+  roster/         /roster: every agent you have installed, counted, and the best few for a task
 hooks/            → goes to ~/.claude/hooks/solo-company/
   guard.mjs       STOP-file kill switch, blocks wipe-the-disk commands and force-push to main,
                   asks before risky ones, blocks live secrets from being written, audit log
@@ -56,7 +59,7 @@ Then:
 
 **It worked if:** `/decode` answers with a table of your asks, and Claude's answers start with the verdict.
 
-**To remove it:** delete the two lines from `~/.claude/CLAUDE.md`, the three agent files, the two skill folders and `~/.claude/hooks/solo-company/` (plus the hook block in `settings.json` if you added it). Your `~/company` folder is yours to keep.
+**To remove it:** delete the two lines from `~/.claude/CLAUDE.md`, the three agent files, the three skill folders and `~/.claude/hooks/solo-company/` (plus the hook block in `settings.json` if you added it). Your `~/company` folder is yours to keep.
 
 ## The habits that make it work
 - **Verdict first.** The head answers in the first line; summaries stay under 10 lines.
@@ -68,7 +71,7 @@ Then:
 ## The Full kit
 The Full kit sets all of this up with one command, and adds:
 - **5 more departments:** sales copy, design, records, rules, money.
-- **4 more skills:** `/brief` (today on one screen), `/ship` (one-hour pieces), `/request` (spend requests you answer with one word), `/weekly` (the weekly review).
+- **5 more skills:** `/brief` (today on one screen), `/ship` (one-hour pieces), `/request` (spend requests you answer with one word), `/weekly` (the weekly review), and `/dispatch`: the head hands each piece of work to the best agent you have (a department or any of your installed specialists), puts the house rules in the brief, and checks the result against `HEAD.md` before moving on.
 - **An installer** with dry-run, backups and a clean uninstall, and a **`doctor`** that checks everything still works after a Claude Code update.
 - **250+ tests** for the guard, the installer and the doctor, and a **secret-scanning pre-commit hook**.
 - **The Operator Guide** and a **worked example company** after its first week.
