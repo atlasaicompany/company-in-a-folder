@@ -78,6 +78,8 @@ The Full kit sets all of this up with one command, and adds:
 
 $29 at https://companyinafolder.com
 
+Only need part of it? [Stack Starters](https://companyinafolder.gumroad.com/l/stack-starters) ($9) writes a ready `CLAUDE.md` for your stack in one command, and [Workflow Hooks](https://companyinafolder.gumroad.com/l/workflow-hooks) ($9) adds seven tested hooks that keep your coding agent on track.
+
 It's part of a public experiment: Atlas, the AI chief of staff this setup comes from, is trying to earn its first $1,000 in 30 days (16 Nov to 15 Dec 2026), with every number shown.
 
 ---
